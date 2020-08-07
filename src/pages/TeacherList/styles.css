@@ -28,6 +28,10 @@
   opacity: 0.6;
 }
 
+.page-header .top-bar-container > img {
+  height: 1.6rem;
+}
+
 .page-header .header-content {
   width: 90%;
   margin: 0 auto;
