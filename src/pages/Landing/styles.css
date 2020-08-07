@@ -8,7 +8,6 @@
 
   color: var(--color-text-in-primary);
   background: var(--color-primary);
-
 }
 
 .logo-container img {
@@ -28,7 +27,7 @@
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 4.6rem;
-  margin-top: 0.8rem;;
+  margin-top: 0.8rem;
 }
 
 .buttons-container {
@@ -53,7 +52,7 @@
   transition: background-color 0.2s;
 }
 
-.buttons-container a:first-child{
+.buttons-container a:first-child {
   margin-right: 1.6rem;
 }
 
@@ -62,7 +61,7 @@
 }
 
 .buttons-container a.study {
-background: var(--color-primary-lighter);
+  background: var(--color-primary-lighter);
 }
 
 .buttons-container a.give-classes {
@@ -71,45 +70,45 @@ background: var(--color-primary-lighter);
 
 .buttons-container a.study:hover {
   background: var(--color-primary-light);
-  }
-  
-  .buttons-container a.give-classes:hover {
-    background: var(--color-secundary-dark);
-  }
+}
 
-  .buttons-container a img {
-    margin-right: 2.4rem;
-  }
+.buttons-container a.give-classes:hover {
+  background: var(--color-secundary-dark);
+}
 
-  .total-connections {
-    font-size: 1.4rem;
+.buttons-container a img {
+  margin-right: 2.4rem;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.total-connections {
+  font-size: 1.4rem;
 
-  .total-connections img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total-connections img {
   margin-left: 0.8rem;
-  }
+}
 
-  @media (min-width:1100px) {
-    #page-landing-content {
-      max-width: 1100px;
+@media (min-width: 1100px) {
+  #page-landing-content {
+    max-width: 1100px;
 
-      display: grid;
-      grid-template-rows: 350px 1fr;
-      grid-template-columns: 2fr 1fr 1fr;
-      grid-template-areas: 
+    display: grid;
+    grid-template-rows: 350px 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: 
       "logo hero hero"
-      "buttons buttons total";
-
-    }
+      "buttons buttons total"
+    ;
   }
 
   .logo-container {
     grid-area: logo;
     align-self: center;
+    text-align: left;
     margin: 0;
   }
 
@@ -119,7 +118,7 @@ background: var(--color-primary-lighter);
   }
 
   .logo-container img {
-    width: 100%;
+    height: 100%;
   }
 
   .hero-image {
@@ -140,3 +139,4 @@ background: var(--color-primary-lighter);
     grid-area: total;
     justify-self: end;
   }
+}
